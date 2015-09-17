@@ -28,7 +28,10 @@
       </footer>
     </div>
 
-    {% include piwik.html %}
+    <!-- if running in production, then include tracking --> 
+    {% if jekyll.environment == "production" %}
+      {% include piwik.html %}
+    {% endif %}
 
  </body>
 </html>
