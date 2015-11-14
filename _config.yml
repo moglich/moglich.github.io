@@ -7,8 +7,8 @@ permalink:           pretty
 # Setup
 title:               mogli
 tagline:             coding for fun
-url:                 http://blog.mogli.me
-paginate:            5
+url:                 http://blog.mogli.io
+paginate:            10
 baseurl:             ""
 
 # Assets
@@ -21,8 +21,8 @@ sass:
 # About/contact
 author:
   name:              Remo Regli
-  url:               http://blog.mogli.me
-  email:             dev@mogli.me
+  url:               http://blog.mogli.io
+  email:             hello@mogli.io
 
 # Custom vars
 version:             1.0.0
